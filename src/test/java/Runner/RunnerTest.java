@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features="src/test/resource",glue={"StepDefination"},tags={"@FacebookLogin,@VodafoneApp"})
+@CucumberOptions(features="src/test/resource",glue={"StepDefination"},tags={"@FacebookLogin"},dryRun=false,monochrome=true,format={"pretty","html:test-Output"})
 public class RunnerTest {
 
 }

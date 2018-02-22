@@ -20,6 +20,7 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
+  
   @FacebookLogin
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page

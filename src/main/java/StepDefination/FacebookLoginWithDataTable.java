@@ -32,7 +32,7 @@ public class FacebookLoginWithDataTable extends TestBase {
 
 	@When("^User enters Credentials to LogIn$")
 	public void user_enters_Credentials_to_LogIn(DataTable arg1) throws Throwable {
-		List<List<String>> list = arg1.raw();
+	List<List<String>> list = arg1.raw();
 		WebElement userName = driver.findElement(By.id("email"));
 		userName.sendKeys(list.get(0).get(0));
 
